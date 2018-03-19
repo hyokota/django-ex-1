@@ -212,6 +212,14 @@
                     "value": "${APP_CONFIG}"
                   },
                   {
+                    "name": "AUTOWRAPT_BOOTSTRAP",
+                    "value": "django"
+                  },
+                  {
+                    "name": "INSTANA_DEV",
+                    "value": "true"
+                  },
+                  {
                     "name": "DJANGO_SECRET_KEY",
                     "valueFrom": {
                       "secretKeyRef" : {
